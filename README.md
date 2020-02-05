@@ -32,7 +32,7 @@ This captcha generator is licensed under the MIT license. Copyright 2019 Samuel 
     ("use \captchaFactory\Captcha;").
     While instanciating the "Captcha" class you must give it the path to captcha's files (as a 
     a parameter of the constructor). This path must be relative for the PHP const "__DIR__" will be
-    automatically used after, during the captcha's creation. Don't open the path with a slash.
+    automatically added after, during the captcha's creation. Don't open the path with a slash.
     (example of valid path: '../captchaFile/').
 
     You now only have to call the "getCaptcha" method in the "Captcha" object with a positive 
