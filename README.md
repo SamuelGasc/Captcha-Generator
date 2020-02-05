@@ -66,4 +66,4 @@ This captcha generator is licensed under the MIT license. Copyright 2019 Samuel 
     
 An example of captcha's use is available in the "test" directory. 
 
-Enjoy ! and may the force be with you.
+Enjoy, and may the force be with you !
