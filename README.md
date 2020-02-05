@@ -54,6 +54,7 @@ This captcha generator is licensed under the MIT license. Copyright 2019 Samuel 
     by the user.
     
     This way, you just have to do a basic server side comparison in order to validate your form.
+    
     (ex: "if ($_POST['myCaptchaField'] === $_SESSION['captcha'])" ).
 
     Note: Since the superglobal "$_SESSION['captcha']" is overwritten every time the "getCaptcha"
