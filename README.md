@@ -61,7 +61,7 @@ This captcha generator is licensed under the MIT license. Copyright 2019 Samuel 
           method is called, if the form is sending datas to the same page (action="#") then the 
           "$_SESSION['captcha']" will be overwritten again and the value given by the user
           ($_POST['myCaptchaField']) won't match the new "$_SESSION['captcha']".
-          Knowing this, it is way easier to send data to another script i order to do the
+          Knowing this, it is way easier to send data to another script in order to do the
           server side validation.
 
     
