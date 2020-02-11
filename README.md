@@ -36,7 +36,7 @@ This captcha generator is licensed under the MIT license. Copyright 2019 Samuel 
     (example of valid path: '../captchaFile/').
 
     You now only have to call the "getCaptcha" method in the "Captcha" object with a positive 
-    integer (between 5 and 15) as a parameter. It will generated a captcha containing random 
+    integer (between 5 and 15) as a parameter. It will generate a captcha containing random 
     characters (as much as the number you provided in the "getCaptcha" parameter).
 
 
