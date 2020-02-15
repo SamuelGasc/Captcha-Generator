@@ -11,9 +11,9 @@ This captcha generator is licensed under the MIT license. Copyright 2019 Samuel 
     In order to store the generated captcha PNG files, You can decide to use the provided 
     "captchaFile" directory or to use your own. But whatever directory you choose to use, make sure 
     that it is writable by PHP or else the captcha will simply not be generated.
-    A good practice is to give the ownership of the captcha storage directory to your Apache server
-    and to give write, read and access rights to it while keeping the other visitors rights
-    to "access" (chmod 755).
+    A good practice is to give the ownership of the captcha storage directory to your web server
+    and to give read, write and execute rights to it while keeping the other visitors rights
+    to "read and execute" (chmod 755).
 
 
 
